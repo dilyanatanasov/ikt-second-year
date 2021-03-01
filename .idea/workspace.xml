@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6792034e-ab47-4bdb-a443-3d75053da8d4" name="Default Changelist" comment="show basic login">
+      <change afterPath="$PROJECT_DIR$/Car.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AbstractExample.php" beforeDir="false" afterPath="$PROJECT_DIR$/AbstractExample.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AbstractExampleNew.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Animal.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Firefighter.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Goat.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Printer.php" beforeDir="false" afterPath="$PROJECT_DIR$/Printer.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1oCyj4Wu12F74IALJSZmDfIGyGG" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mvc" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6792034e-ab47-4bdb-a443-3d75053da8d4" name="Default Changelist" comment="" />
+      <created>1612804998589</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1612804998589</updated>
+      <workItem from="1612804999628" duration="4356000" />
+      <workItem from="1613407291781" duration="6047000" />
+      <workItem from="1614013767238" duration="5619000" />
+      <workItem from="1614057816361" duration="5687000" />
+      <workItem from="1614144694787" duration="5298000" />
+      <workItem from="1614230750314" duration="9168000" />
+    </task>
+    <task id="LOCAL-00001" summary="show basic php">
+      <created>1612808707239</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1612808707239</updated>
+    </task>
+    <task id="LOCAL-00002" summary="show basic login">
+      <created>1613412934368</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1613412934368</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="show basic php" />
+    <MESSAGE value="show basic login" />
+    <option name="LAST_COMMIT_MESSAGE" value="show basic login" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="653" y="342" width="604" height="403" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1613412767919">
+      <screen x="68" y="0" width="1852" height="1080" />
+    </state>
+    <state x="653" y="342" width="604" height="403" key="#com.intellij.fileTypes.FileTypeChooser/0.1080.1920.1080/68.0.1852.1080@68.0.1852.1080" timestamp="1613412767919" />
+    <state x="743" y="172" width="424" height="491" key="FileChooserDialogImpl" timestamp="1614404725624">
+      <screen x="68" y="27" width="1852" height="1053" />
+    </state>
+    <state x="743" y="149" width="424" height="713" key="FileChooserDialogImpl/0.1080.1920.1080/68.0.1852.1080@68.0.1852.1080" timestamp="1614058461223" />
+    <state x="743" y="172" width="424" height="491" key="FileChooserDialogImpl/0.1080.1920.1080/68.27.1852.1053@68.27.1852.1053" timestamp="1614404725624" />
+    <state x="743" y="298" width="424" height="491" key="FileChooserDialogImpl/68.0.1852.2160@68.0.1852.2160" timestamp="1612812689541" />
+    <state x="726" y="256" width="449" height="624" key="NewPhpClassDialog" timestamp="1614231502823">
+      <screen x="68" y="0" width="1852" height="1080" />
+    </state>
+    <state x="726" y="256" width="449" height="624" key="NewPhpClassDialog/0.1080.1920.1080/68.0.1852.1080@68.0.1852.1080" timestamp="1614231502823" />
+    <state x="755" y="233" width="389" height="156" key="NewPhpFileDialog" timestamp="1614320302377">
+      <screen x="68" y="0" width="1852" height="1080" />
+    </state>
+    <state x="755" y="233" width="389" height="156" key="NewPhpFileDialog/0.1080.1920.1080/68.0.1852.1080@68.0.1852.1080" timestamp="1614320302377" />
+    <state x="755" y="465" width="399" height="156" key="NewPhpFileDialog/68.0.1852.2160@68.0.1852.2160" timestamp="1612805110150" />
+    <state x="749" y="223" width="412" height="640" key="RollbackChangesDialog" timestamp="1614317237659">
+      <screen x="68" y="0" width="1852" height="1080" />
+    </state>
+    <state x="749" y="223" width="412" height="640" key="RollbackChangesDialog/0.1080.1920.1080/68.0.1852.1080@68.0.1852.1080" timestamp="1614317237659" />
+    <state x="555" y="276" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1613412947323">
+      <screen x="68" y="0" width="1852" height="1080" />
+    </state>
+    <state x="555" y="276" width="800" height="535" key="Vcs.Push.Dialog.v2/0.1080.1920.1080/68.0.1852.1080@68.0.1852.1080" timestamp="1613412947323" />
+    <state x="623" y="239" width="672" height="678" key="search.everywhere.popup" timestamp="1614320913851">
+      <screen x="68" y="0" width="1852" height="1080" />
+    </state>
+    <state x="623" y="239" width="672" height="678" key="search.everywhere.popup/0.1080.1920.1080/68.0.1852.1080@68.0.1852.1080" timestamp="1614320913851" />
+  </component>
+</project>
