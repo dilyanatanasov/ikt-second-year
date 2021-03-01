@@ -20,13 +20,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6792034e-ab47-4bdb-a443-3d75053da8d4" name="Default Changelist" comment="show basic login">
-      <change afterPath="$PROJECT_DIR$/Car.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AbstractExample.php" beforeDir="false" afterPath="$PROJECT_DIR$/AbstractExample.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AbstractExampleNew.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Animal.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Firefighter.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Goat.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Printer.php" beforeDir="false" afterPath="$PROJECT_DIR$/Printer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configs/const.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controllers/BaseController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controllers/BlogController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/Authentication.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/Autoload.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/Db.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/Pager.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/Router.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helpers/Debug.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/BaseModel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/BlogModel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/repositories/BlogRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/site/404.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/site/blog.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/site/footer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/site/login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/site/navigation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/site/register.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/site/welcome.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +63,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mvc" />
+    <property name="last_opened_file_path" value="/home" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -70,6 +86,7 @@
       <workItem from="1614057816361" duration="5687000" />
       <workItem from="1614144694787" duration="5298000" />
       <workItem from="1614230750314" duration="9168000" />
+      <workItem from="1614617703767" duration="4352000" />
     </task>
     <task id="LOCAL-00001" summary="show basic php">
       <created>1612808707239</created>
@@ -113,20 +130,20 @@
       <screen x="68" y="0" width="1852" height="1080" />
     </state>
     <state x="653" y="342" width="604" height="403" key="#com.intellij.fileTypes.FileTypeChooser/0.1080.1920.1080/68.0.1852.1080@68.0.1852.1080" timestamp="1613412767919" />
-    <state x="743" y="172" width="424" height="491" key="FileChooserDialogImpl" timestamp="1614404725624">
-      <screen x="68" y="27" width="1852" height="1053" />
+    <state x="743" y="149" width="424" height="491" key="FileChooserDialogImpl" timestamp="1614618658071">
+      <screen x="68" y="0" width="1852" height="1080" />
     </state>
-    <state x="743" y="149" width="424" height="713" key="FileChooserDialogImpl/0.1080.1920.1080/68.0.1852.1080@68.0.1852.1080" timestamp="1614058461223" />
+    <state x="743" y="149" width="424" height="713" key="FileChooserDialogImpl/0.1080.1920.1080/68.0.1852.1080@68.0.1852.1080" timestamp="1614618658071" />
     <state x="743" y="172" width="424" height="491" key="FileChooserDialogImpl/0.1080.1920.1080/68.27.1852.1053@68.27.1852.1053" timestamp="1614404725624" />
     <state x="743" y="298" width="424" height="491" key="FileChooserDialogImpl/68.0.1852.2160@68.0.1852.2160" timestamp="1612812689541" />
-    <state x="726" y="256" width="449" height="624" key="NewPhpClassDialog" timestamp="1614231502823">
+    <state x="726" y="256" width="545" height="659" key="NewPhpClassDialog" timestamp="1614620306145">
       <screen x="68" y="0" width="1852" height="1080" />
     </state>
-    <state x="726" y="256" width="449" height="624" key="NewPhpClassDialog/0.1080.1920.1080/68.0.1852.1080@68.0.1852.1080" timestamp="1614231502823" />
-    <state x="755" y="233" width="389" height="156" key="NewPhpFileDialog" timestamp="1614320302377">
+    <state x="726" y="256" width="545" height="659" key="NewPhpClassDialog/0.1080.1920.1080/68.0.1852.1080@68.0.1852.1080" timestamp="1614620306145" />
+    <state x="755" y="233" width="389" height="156" key="NewPhpFileDialog" timestamp="1614620737872">
       <screen x="68" y="0" width="1852" height="1080" />
     </state>
-    <state x="755" y="233" width="389" height="156" key="NewPhpFileDialog/0.1080.1920.1080/68.0.1852.1080@68.0.1852.1080" timestamp="1614320302377" />
+    <state x="755" y="233" width="389" height="156" key="NewPhpFileDialog/0.1080.1920.1080/68.0.1852.1080@68.0.1852.1080" timestamp="1614620737872" />
     <state x="755" y="465" width="399" height="156" key="NewPhpFileDialog/68.0.1852.2160@68.0.1852.2160" timestamp="1612805110150" />
     <state x="749" y="223" width="412" height="640" key="RollbackChangesDialog" timestamp="1614317237659">
       <screen x="68" y="0" width="1852" height="1080" />
