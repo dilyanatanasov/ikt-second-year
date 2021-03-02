@@ -20,29 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6792034e-ab47-4bdb-a443-3d75053da8d4" name="Default Changelist" comment="show basic login">
-      <change afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configs/const.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/BaseController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/BlogController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/Authentication.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/Autoload.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/Db.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/Pager.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/Router.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helpers/Debug.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/BaseModel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/BlogModel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/repositories/BlogRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/site/404.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/site/blog.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/site/footer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/site/login.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/site/navigation.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/site/register.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/site/welcome.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configs/const.php" beforeDir="false" afterPath="$PROJECT_DIR$/configs/const.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/site/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/site/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/site/navigation.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/site/navigation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/site/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/site/register.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +45,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="/home" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -86,7 +68,8 @@
       <workItem from="1614057816361" duration="5687000" />
       <workItem from="1614144694787" duration="5298000" />
       <workItem from="1614230750314" duration="9168000" />
-      <workItem from="1614617703767" duration="4352000" />
+      <workItem from="1614617703767" duration="5697000" />
+      <workItem from="1614663045470" duration="1519000" />
     </task>
     <task id="LOCAL-00001" summary="show basic php">
       <created>1612808707239</created>
@@ -153,6 +136,10 @@
       <screen x="68" y="0" width="1852" height="1080" />
     </state>
     <state x="555" y="276" width="800" height="535" key="Vcs.Push.Dialog.v2/0.1080.1920.1080/68.0.1852.1080@68.0.1852.1080" timestamp="1613412947323" />
+    <state x="651" y="279" width="618" height="522" key="find.popup" timestamp="1614663613826">
+      <screen x="68" y="0" width="1852" height="1080" />
+    </state>
+    <state x="651" y="279" width="618" height="522" key="find.popup/0.1080.1920.1080/68.0.1852.1080@68.0.1852.1080" timestamp="1614663613826" />
     <state x="623" y="239" width="672" height="678" key="search.everywhere.popup" timestamp="1614320913851">
       <screen x="68" y="0" width="1852" height="1080" />
     </state>

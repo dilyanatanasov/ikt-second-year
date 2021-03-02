@@ -11,13 +11,13 @@
 <nav>
     <ul>
         <section class="logo">
-            <a href="/ikt-second-year/index.php"><h1>rate me</h1></a>
+            <a href="<?php echo APPLICATION_PATH ?>index.php"><h1>rate me</h1></a>
         </section>
-        <li><a href="/ikt-second-year/index.php?controller=blog&action=list">Blog</a></li>
-        <li><a href="/ikt-second-year/index.php?controller=about">About</a></li>
+        <li><a href="<?php echo APPLICATION_PATH ?>index.php?controller=blog&action=list">Blog</a></li>
+        <li><a href="<?php echo APPLICATION_PATH ?>index.php?controller=about">About</a></li>
         <?php
         echo "<li>
-                    <form action='/ikt-second-year/index.php?login=true' method='post'>
+                    <form action='" . APPLICATION_PATH . "index.php?login=true' method='post'>
                         <input type='submit' value='";
         echo (!empty($_SESSION["uid"])) ? "Logout" : "Login";
         echo "'>
