@@ -3,7 +3,7 @@
 define('DB_HOST', 'localhost');
 define('DB_USER', 'root');
 define('DB_PASS', '');
-define('DB_DATABASE', 'user_credentials');
+define('DB_DATABASE', 'ikt-second-year');
 
 define('APPLICATION_PATH', '/exercise/');
 define('CONTROLLERS_PATH', 'controllers/');
