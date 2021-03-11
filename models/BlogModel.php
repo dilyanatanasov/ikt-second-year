@@ -9,6 +9,11 @@ class BlogModel extends BaseModel
         $this->blogRepo = new BlogRepository();
     }
 
+    public function create($data)
+    {
+        // TODO: Implement create() method.
+    }
+
     public function view($id)
     {
         return $this->blogRepo->getById($id);
@@ -19,7 +24,7 @@ class BlogModel extends BaseModel
         return $this->blogRepo->getAll();
     }
 
-    public function update($id)
+    public function update($data)
     {
         // TODO: Implement update() method.
     }
