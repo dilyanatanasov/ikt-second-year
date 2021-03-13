@@ -26,14 +26,14 @@ class Authentication
     public static function authenticate() {
         if (!empty($_POST)) {
             if (!empty($_POST["username"]) && !empty($_POST["password"])) {
-//                $userModel = new UserModel();
-//                $password = hash("sha256", $_POST["password"]);
-//                $user = $userModel->viewByUsernameAndPassword($_POST["username"], $password);
-//                if (!empty($user)) {
-//                    $_SESSION["uid"] = $user->id;
-//                    $_SESSION["full_name"] = $user->first_name . " " . $user->last_name;
-//                    return true;
-//                }
+                $userModel = new UserModel();
+                $password = hash("sha256", $_POST["password"]);
+                $user = $userModel->viewByUsernameAndPassword($_POST["username"], $password);
+                if (!empty($user)) {
+                    $_SESSION["uid"] = $user->id;
+                    $_SESSION["full_name"] = $user->first_name . " " . $user->last_name;
+                    return true;
+                }
             }
 
             return false;

@@ -10,7 +10,7 @@ class Router
         } else if (Authentication::login()) {
             Pager::loadLogin();
         } else {
-            // Authentication::signUp();
+            Authentication::signUp();
             Authentication::authenticate();
             Pager::load();
         }

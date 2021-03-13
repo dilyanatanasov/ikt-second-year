@@ -9,6 +9,11 @@ class MovieModel extends BaseModel
         $this->moviesRepository = new MoviesRepository();
     }
 
+    public function create($data)
+    {
+        // TODO: Implement create() method.
+    }
+
     public function view($id)
     {
         // TODO: Implement view() method.
