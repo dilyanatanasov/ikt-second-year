@@ -13,8 +13,8 @@
         <section class="logo">
             <a href="<?php echo APPLICATION_PATH?>index.php"><h1>rate me</h1></a>
         </section>
-        <li><a href="<?php echo APPLICATION_PATH?>index.php?controller=blog&action=list">Blog</a></li>
-        <li><a href="<?php echo APPLICATION_PATH?>index.php?controller=about">About</a></li>
+        <li><a href="<?php echo APPLICATION_PATH?>index.php?controller=blog&action=listAll">Blog</a></li>
+        <li><a href="<?php echo APPLICATION_PATH?>index.php?controller=movies&action=listAll">Movies</a></li>
         <?php
         echo "<li>
                     <form action='" . APPLICATION_PATH . "index.php?login=true' method='post'>

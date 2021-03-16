@@ -1,15 +1,13 @@
 <?php
 
-class BlogRepository extends Db
+
+class MoviesRepository extends Db
 {
     public function getAll() {
-        $stmt = $this->conn->prepare("
-            SELECT 
-                * 
-            FROM 
-                movies
-            ");
-        $stmt->execute();
+        $sql = "
+            SELECT * FROM movies
+        ";
+        $stmt = $this->conn->query($sql);
         return $stmt->fetchAll(PDO::FETCH_OBJ);
     }
 }

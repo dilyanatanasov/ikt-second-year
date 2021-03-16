@@ -1,11 +1,11 @@
 <?php
 
-class MovieModel extends BaseModel
+
+class MoviesModel extends BaseModel
 {
     private $moviesRepository;
 
-    function __construct()
-    {
+    function __construct() {
         $this->moviesRepository = new MoviesRepository();
     }
 
@@ -24,7 +24,7 @@ class MovieModel extends BaseModel
         return $this->moviesRepository->getAll();
     }
 
-    public function update($id)
+    public function update($data)
     {
         // TODO: Implement update() method.
     }

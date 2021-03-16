@@ -1,14 +1,15 @@
 <?php
 
-class BlogController extends BaseController
+
+class MoviesController extends BaseController
 {
-    private $moviesModel;
+    private $movieModel;
 
     function __construct() {
-        $this->moviesModel = new MoviesModel();
+        $this->movieModel = new MoviesModel();
     }
 
     public function listAll() {
-        return $this->moviesModel->listAll();
+        return $this->movieModel->listAll();
     }
 }

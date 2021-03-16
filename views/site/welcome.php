@@ -3,7 +3,7 @@ require_once "navigation.php";
 ?>
 
     <header>
-        <p>Welcome</p>
+        <p>Welcome <?php if (!empty($_SESSION) && !empty($_SESSION["full_name"])) echo $_SESSION["full_name"];?></p>
     </header>
 
 <?php
