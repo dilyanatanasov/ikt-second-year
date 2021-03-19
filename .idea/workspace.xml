@@ -23,12 +23,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6792034e-ab47-4bdb-a443-3d75053da8d4" name="Default Changelist" comment="show basic login">
+      <change afterPath="$PROJECT_DIR$/controllers/MoviesController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/site/movies.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/MoviesController.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/core/Pager.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/Pager.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/MoviesModel.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/repositories/MoviesRepository.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/site/movies.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,16 +127,16 @@
     <state x="743" y="149" width="424" height="713" key="FileChooserDialogImpl/0.1080.1920.1080/68.0.1852.1080@68.0.1852.1080" timestamp="1614618658071" />
     <state x="743" y="172" width="424" height="491" key="FileChooserDialogImpl/0.1080.1920.1080/68.27.1852.1053@68.27.1852.1053" timestamp="1614404725624" />
     <state x="743" y="298" width="424" height="491" key="FileChooserDialogImpl/68.0.1852.2160@68.0.1852.2160" timestamp="1615871815188" />
-    <state x="1082" y="6" width="553" height="1074" key="NewPhpClassDialog" timestamp="1615874813154">
+    <state x="1082" y="0" width="545" height="1080" key="NewPhpClassDialog" timestamp="1616133863192">
       <screen x="68" y="0" width="1852" height="2160" />
     </state>
     <state x="726" y="256" width="545" height="659" key="NewPhpClassDialog/0.1080.1920.1080/68.0.1852.1080@68.0.1852.1080" timestamp="1614620306145" />
-    <state x="1082" y="6" width="553" height="1074" key="NewPhpClassDialog/68.0.1852.2160@68.0.1852.2160" timestamp="1615874813154" />
-    <state x="755" y="465" width="389" height="156" key="NewPhpFileDialog" timestamp="1615874013574">
+    <state x="1082" y="0" width="545" height="1080" key="NewPhpClassDialog/68.0.1852.2160@68.0.1852.2160" timestamp="1616133863192" />
+    <state x="755" y="465" width="389" height="156" key="NewPhpFileDialog" timestamp="1616133933613">
       <screen x="68" y="0" width="1852" height="2160" />
     </state>
     <state x="755" y="233" width="389" height="156" key="NewPhpFileDialog/0.1080.1920.1080/68.0.1852.1080@68.0.1852.1080" timestamp="1614620737872" />
-    <state x="755" y="465" width="399" height="156" key="NewPhpFileDialog/68.0.1852.2160@68.0.1852.2160" timestamp="1615874013574" />
+    <state x="755" y="465" width="399" height="156" key="NewPhpFileDialog/68.0.1852.2160@68.0.1852.2160" timestamp="1616133933613" />
     <state x="749" y="1107" width="412" height="1053" key="RollbackChangesDialog" timestamp="1615872159019">
       <screen x="68" y="0" width="1852" height="2160" />
     </state>
