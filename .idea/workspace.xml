@@ -23,10 +23,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6792034e-ab47-4bdb-a443-3d75053da8d4" name="Default Changelist" comment="show basic login">
-      <change afterPath="$PROJECT_DIR$/controllers/MoviesController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/site/movies.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/MovieModel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/repositories/MoviesRepository.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/Pager.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/Pager.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/MoviesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/MoviesController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/site/movies.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/site/movies.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,21 +118,25 @@
       <screen x="68" y="0" width="1852" height="1080" />
     </state>
     <state x="653" y="342" width="604" height="403" key="#com.intellij.fileTypes.FileTypeChooser/0.1080.1920.1080/68.0.1852.1080@68.0.1852.1080" timestamp="1613412767919" />
-    <state x="749" y="221" width="412" height="666" key="#com.intellij.ide.util.MemberChooser" timestamp="1615874696536">
+    <state x="749" y="221" width="412" height="673" key="#com.intellij.ide.util.MemberChooser" timestamp="1616134571211">
       <screen x="68" y="0" width="1852" height="2160" />
     </state>
-    <state x="749" y="221" width="412" height="666" key="#com.intellij.ide.util.MemberChooser/68.0.1852.2160@68.0.1852.2160" timestamp="1615874696536" />
+    <state x="749" y="221" width="412" height="673" key="#com.intellij.ide.util.MemberChooser/68.0.1852.2160@68.0.1852.2160" timestamp="1616134571211" />
+    <state x="710" y="323" width="479" height="447" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1616134692253">
+      <screen x="68" y="0" width="1852" height="2160" />
+    </state>
+    <state x="710" y="323" width="479" height="447" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/68.0.1852.2160@68.0.1852.2160" timestamp="1616134692253" />
     <state x="743" y="298" width="424" height="491" key="FileChooserDialogImpl" timestamp="1615871815188">
       <screen x="68" y="0" width="1852" height="2160" />
     </state>
     <state x="743" y="149" width="424" height="713" key="FileChooserDialogImpl/0.1080.1920.1080/68.0.1852.1080@68.0.1852.1080" timestamp="1614618658071" />
     <state x="743" y="172" width="424" height="491" key="FileChooserDialogImpl/0.1080.1920.1080/68.27.1852.1053@68.27.1852.1053" timestamp="1614404725624" />
     <state x="743" y="298" width="424" height="491" key="FileChooserDialogImpl/68.0.1852.2160@68.0.1852.2160" timestamp="1615871815188" />
-    <state x="1082" y="0" width="545" height="1080" key="NewPhpClassDialog" timestamp="1616133863192">
+    <state x="1082" y="0" width="553" height="1080" key="NewPhpClassDialog" timestamp="1616134621929">
       <screen x="68" y="0" width="1852" height="2160" />
     </state>
     <state x="726" y="256" width="545" height="659" key="NewPhpClassDialog/0.1080.1920.1080/68.0.1852.1080@68.0.1852.1080" timestamp="1614620306145" />
-    <state x="1082" y="0" width="545" height="1080" key="NewPhpClassDialog/68.0.1852.2160@68.0.1852.2160" timestamp="1616133863192" />
+    <state x="1082" y="0" width="553" height="1080" key="NewPhpClassDialog/68.0.1852.2160@68.0.1852.2160" timestamp="1616134621929" />
     <state x="755" y="465" width="389" height="156" key="NewPhpFileDialog" timestamp="1616133933613">
       <screen x="68" y="0" width="1852" height="2160" />
     </state>
