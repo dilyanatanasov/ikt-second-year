@@ -24,9 +24,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6792034e-ab47-4bdb-a443-3d75053da8d4" name="Default Changelist" comment="show basic login">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/MoviesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/MoviesController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/MovieModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/MovieModel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/repositories/MoviesRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/repositories/MoviesRepository.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/site/movies.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/site/movies.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -137,11 +134,11 @@
     </state>
     <state x="726" y="256" width="545" height="659" key="NewPhpClassDialog/0.1080.1920.1080/68.0.1852.1080@68.0.1852.1080" timestamp="1614620306145" />
     <state x="1082" y="0" width="553" height="1080" key="NewPhpClassDialog/68.0.1852.2160@68.0.1852.2160" timestamp="1616134621929" />
-    <state x="755" y="465" width="389" height="156" key="NewPhpFileDialog" timestamp="1616133933613">
+    <state x="755" y="465" width="389" height="156" key="NewPhpFileDialog" timestamp="1616651909232">
       <screen x="68" y="0" width="1852" height="2160" />
     </state>
     <state x="755" y="233" width="389" height="156" key="NewPhpFileDialog/0.1080.1920.1080/68.0.1852.1080@68.0.1852.1080" timestamp="1614620737872" />
-    <state x="755" y="465" width="399" height="156" key="NewPhpFileDialog/68.0.1852.2160@68.0.1852.2160" timestamp="1616133933613" />
+    <state x="755" y="465" width="399" height="156" key="NewPhpFileDialog/68.0.1852.2160@68.0.1852.2160" timestamp="1616651909232" />
     <state x="749" y="1107" width="412" height="1053" key="RollbackChangesDialog" timestamp="1615872159019">
       <screen x="68" y="0" width="1852" height="2160" />
     </state>
