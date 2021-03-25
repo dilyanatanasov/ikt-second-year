@@ -16,7 +16,7 @@ class MovieModel extends BaseModel
 
     public function view($id)
     {
-        // TODO: Implement view() method.
+        return $this->movieRepository->getById($id);
     }
 
     public function listAll()

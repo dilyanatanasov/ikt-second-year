@@ -12,4 +12,12 @@ class MoviesController extends BaseController
     public function listAll() {
         return $this->movieModel->listAll();
     }
+
+    public function view() {
+        if (!empty($_POST) && !empty($_POST["movie_id"])) {
+            return $this->movieModel->view($_POST["movie_id"]);
+        } else {
+            return false;
+        }
+    }
 }
