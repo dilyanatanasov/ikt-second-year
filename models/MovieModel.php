@@ -11,7 +11,7 @@ class MovieModel extends BaseModel
 
     public function create($data)
     {
-        // TODO: Implement create() method.
+        return $this->movieRepository->create($data);
     }
 
     public function view($id)

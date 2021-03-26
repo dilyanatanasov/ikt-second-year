@@ -3,6 +3,21 @@
 
 class MoviesRepository extends Db
 {
+    public function create($data) {
+        $sql = "
+            INSERT INTO movies(id, title, description, main_actor, duration, rating, thumbnail)
+            VALUES(NULL, :title, :description, :main_actor, :duration, :rating, :thumbnail)
+        ";
+        $stmt = $this->conn->prepare($sql);
+        $stmt->bindValue(":title", $data["title"], PDO::PARAM_STR);
+        $stmt->bindValue(":description", $data["description"], PDO::PARAM_STR);
+        $stmt->bindValue(":main_actor", $data["main_actor"], PDO::PARAM_STR);
+        $stmt->bindValue(":duration", $data["duration"], PDO::PARAM_INT);
+        $stmt->bindValue(":rating", $data["rating"], PDO::PARAM_INT);
+        $stmt->bindValue(":thumbnail", $data["thumbnail"], PDO::PARAM_STR);
+        return $stmt->execute();
+    }
+
     public function getAll() {
         $sql = "
             SELECT * FROM movies

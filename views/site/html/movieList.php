@@ -1,6 +1,9 @@
 <?php
 
 echo "
+<form action='" . APPLICATION_PATH . "index.php?controller=movies&action=create' method='post'>
+    <button>Create</button>
+</form>
 <section>
     <h1>Movies</h1>
     <table>
@@ -22,12 +25,11 @@ foreach ($data as $movie) {
              <td>
                 <form action='" . APPLICATION_PATH . "index.php?controller=movies&action=view' method='post'>
                     <button name='movie_id' value='$movie->id'>View</button>
-                </form> 
-            </td>
+                </form>
+             </td>
           </tr>";
 }
 
-echo "   </tbody>
+echo "  </tbody>
     </table>
-</section>
-";
+</section>";
