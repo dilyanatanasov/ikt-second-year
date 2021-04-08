@@ -28,4 +28,12 @@ class MoviesController extends BaseController
             return false;
         }
     }
+
+    public function update() {
+        if (!empty($_POST) && !empty($_POST["update"])) {
+
+        } else if (!empty($_GET) && !empty($_GET["movie_id"])) {
+            return $this->movieModel->view($_GET["movie_id"]);
+        }
+    }
 }

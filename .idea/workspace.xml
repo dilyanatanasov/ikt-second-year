@@ -23,13 +23,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6792034e-ab47-4bdb-a443-3d75053da8d4" name="Default Changelist" comment="show basic login">
-      <change afterPath="$PROJECT_DIR$/views/site/html/movieCreate.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/site/html/movieView.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/site/html/movieUpdate.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controllers/MoviesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/MoviesController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/MovieModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/MovieModel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/repositories/MoviesRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/repositories/MoviesRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/site/html/movieList.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/site/html/movieList.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/site/html/movieView.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/site/html/movieView.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/site/movies.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/site/movies.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -144,10 +141,10 @@
     </state>
     <state x="726" y="256" width="545" height="659" key="NewPhpClassDialog/0.1080.1920.1080/68.0.1852.1080@68.0.1852.1080" timestamp="1614620306145" />
     <state x="1082" y="0" width="553" height="1080" key="NewPhpClassDialog/68.0.1852.2160@68.0.1852.2160" timestamp="1616134621929" />
-    <state x="755" y="465" width="389" height="156" key="NewPhpFileDialog" timestamp="1616740750871">
-      <screen x="68" y="0" width="1852" height="2160" />
+    <state x="755" y="233" width="389" height="156" key="NewPhpFileDialog" timestamp="1617858035436">
+      <screen x="68" y="0" width="1852" height="1080" />
     </state>
-    <state x="755" y="233" width="389" height="156" key="NewPhpFileDialog/0.1080.1920.1080/68.0.1852.1080@68.0.1852.1080" timestamp="1614620737872" />
+    <state x="755" y="233" width="389" height="156" key="NewPhpFileDialog/0.1080.1920.1080/68.0.1852.1080@68.0.1852.1080" timestamp="1617858035436" />
     <state x="755" y="465" width="399" height="156" key="NewPhpFileDialog/68.0.1852.2160@68.0.1852.2160" timestamp="1616740750871" />
     <state x="749" y="1107" width="412" height="1053" key="RollbackChangesDialog" timestamp="1616735905721">
       <screen x="68" y="0" width="1852" height="2160" />
@@ -162,10 +159,10 @@
       <screen x="68" y="0" width="1852" height="2160" />
     </state>
     <state x="100" y="100" width="1720" height="880" key="com.intellij.history.integration.ui.views.FileHistoryDialog/68.0.1852.2160@68.0.1852.2160" timestamp="1615872185669" />
-    <state x="588" y="180" width="672" height="1356" key="search.everywhere.popup" timestamp="1615873823723">
-      <screen x="68" y="0" width="1852" height="2160" />
+    <state x="623" y="239" width="672" height="678" key="search.everywhere.popup" timestamp="1617857287876">
+      <screen x="68" y="0" width="1852" height="1080" />
     </state>
-    <state x="623" y="239" width="672" height="678" key="search.everywhere.popup/0.1080.1920.1080/68.0.1852.1080@68.0.1852.1080" timestamp="1614320913851" />
+    <state x="623" y="239" width="672" height="678" key="search.everywhere.popup/0.1080.1920.1080/68.0.1852.1080@68.0.1852.1080" timestamp="1617857287876" />
     <state x="588" y="180" width="672" height="1356" key="search.everywhere.popup/68.0.1852.2160@68.0.1852.2160" timestamp="1615873823723" />
   </component>
 </project>
