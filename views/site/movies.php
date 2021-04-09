@@ -13,9 +13,6 @@ if (!empty($data)) {
             case "view":
                 require_once "html/movieView.php";
                 break;
-            case "update":
-                require_once "html/movieUpdate.php";
-                break;
             default:
                 require_once "html/movieList.php";
                 break;

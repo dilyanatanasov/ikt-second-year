@@ -18,7 +18,16 @@ class MoviesController extends BaseController
     }
 
     public function listAll() {
-        return $this->movieModel->listAll();
+        if (!empty($_POST) && !empty($_POST["search"])) {
+            $searchResults = $this->movieModel->search($_POST["topic"]);
+            if (sizeof($searchResults) > 0) {
+                return $searchResults;
+            } else {
+                return true;
+            }
+        } else {
+            return $this->movieModel->listAll();
+        }
     }
 
     public function view() {
@@ -29,11 +38,12 @@ class MoviesController extends BaseController
         }
     }
 
-    public function update() {
-        if (!empty($_POST) && !empty($_POST["update"])) {
-
-        } else if (!empty($_GET) && !empty($_GET["movie_id"])) {
-            return $this->movieModel->view($_GET["movie_id"]);
+    public function delete() {
+        if (!empty($_POST) && !empty($_POST["movie_id"])) {
+            $this->movieModel->delete($_POST["movie_id"]);
+            header("Location: index.php?controller=movies&action=listAll");
+        } else {
+            return false;
         }
     }
 }

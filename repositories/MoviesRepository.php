@@ -26,6 +26,23 @@ class MoviesRepository extends Db
         return $stmt->fetchAll(PDO::FETCH_OBJ);
     }
 
+    public function getAllByTopic($topic) {
+        $sql = "
+            SELECT
+                *
+            FROM
+                movies
+            WHERE
+                LOWER(title) LIKE CONCAT('%', :topic , '%') OR
+                LOWER(description) LIKE CONCAT('%', :topic , '%') OR
+                LOWER(main_actor) LIKE CONCAT('%', :topic , '%')
+        ";
+        $stmt = $this->conn->prepare($sql);
+        $stmt->bindValue(":topic", strtolower($topic), PDO::PARAM_STR);
+        $stmt->execute();
+        return $stmt->fetchAll(PDO::FETCH_OBJ);
+    }
+
     public function getById($id) {
         $sql = "
             SELECT * FROM movies WHERE id = :id
@@ -34,5 +51,14 @@ class MoviesRepository extends Db
         $stmt->bindValue(":id", $id, PDO::PARAM_INT);
         $stmt->execute();
         return $stmt->fetch(PDO::FETCH_OBJ);
+    }
+
+    public function delete($id) {
+        $sql = "
+            DELETE FROM movies WHERE id = :id        
+        ";
+        $stmt = $this->conn->prepare($sql);
+        $stmt->bindValue(":id", $id, PDO::PARAM_INT);
+        return $stmt->execute();
     }
 }
