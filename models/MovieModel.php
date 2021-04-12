@@ -32,7 +32,7 @@ class MovieModel extends BaseModel
 
     public function update($data)
     {
-        // TODO implement update
+        return $this->movieRepository->update($data);
     }
 
     public function delete($id)
