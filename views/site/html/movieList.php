@@ -26,7 +26,7 @@ if (is_array($data)) {
         echo "<tr>
              <td>$movie->title</td>
              <td>$movie->rating</td>
-             <td><img width='100px' src='$movie->thumbnail'/></td>
+             <td><img width='100px' src='" . APPLICATION_PATH . "views/img/$movie->thumbnail'/></td>
              <td>
                 <form action='" . APPLICATION_PATH . "index.php?controller=movies&action=view' method='post'>
                     <button name='movie_id' value='$movie->id'>View</button>

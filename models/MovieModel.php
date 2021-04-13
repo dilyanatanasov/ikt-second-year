@@ -5,8 +5,7 @@ class MovieModel extends BaseModel
 {
     private $movieRepository;
 
-    function __construct()
-    {
+    function __construct() {
         $this->movieRepository = new MoviesRepository();
     }
 
@@ -25,8 +24,7 @@ class MovieModel extends BaseModel
         return $this->movieRepository->getAll();
     }
 
-    public function search($topic)
-    {
+    public function search($topic) {
         return $this->movieRepository->getAllByTopic($topic);
     }
 

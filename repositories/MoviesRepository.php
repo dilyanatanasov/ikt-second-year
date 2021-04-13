@@ -33,12 +33,12 @@ class MoviesRepository extends Db
             FROM
                 movies
             WHERE
-                LOWER(title) LIKE CONCAT('%', :topic , '%') OR
-                LOWER(description) LIKE CONCAT('%', :topic , '%') OR
-                LOWER(main_actor) LIKE CONCAT('%', :topic , '%')
+                title LIKE CONCAT('%', :topic , '%') OR
+                description LIKE CONCAT('%', :topic , '%') OR
+                main_actor LIKE CONCAT('%', :topic , '%')
         ";
         $stmt = $this->conn->prepare($sql);
-        $stmt->bindValue(":topic", strtolower($topic), PDO::PARAM_STR);
+        $stmt->bindValue(":topic", $topic, PDO::PARAM_STR);
         $stmt->execute();
         return $stmt->fetchAll(PDO::FETCH_OBJ);
     }
@@ -80,7 +80,7 @@ class MoviesRepository extends Db
 
     public function delete($id) {
         $sql = "
-            DELETE FROM movies WHERE id = :id        
+            DELETE FROM movies WHERE id = :id
         ";
         $stmt = $this->conn->prepare($sql);
         $stmt->bindValue(":id", $id, PDO::PARAM_INT);

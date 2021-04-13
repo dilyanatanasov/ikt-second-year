@@ -2,7 +2,7 @@
 
 echo "
 <form action='" . APPLICATION_PATH . "index.php?controller=movies&action=update' method='post'>
-    <input style='display: none' type='number' name='id' value='$data->id'>
+    <input style='display: none' name='id' value='$data->id'>
     <label>Title</label>
     <input type='text' name='title' value='$data->title'><br>
     <label>Description</label>
