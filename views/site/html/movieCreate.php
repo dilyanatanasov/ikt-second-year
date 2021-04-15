@@ -1,21 +1,19 @@
 <?php
 
-echo "<section class='content'>
-        <section class='create'>
-            <form>
-                <label>Title</label>
-                <input type='text' name='title' placeholder='Title'><br>
-                <label for='description'>Description</label>
-                <textarea name='description' placeholder='Description'></textarea><br>
-                <label>Main Actor</label>
-                <input type='text' name='main_actor' placeholder='Main Actor'><br>
-                <label>Duration</label>
-                <input type='text' name='duration' placeholder='Duration'><br>
-                <label>Rating</label>
-                <input type='text' name='rating' placeholder='Rating'><br>
-                <label>Thumbnail</label>
-                <input type='file' name='fileToUpload'><br>
-            </form>
-                <input id='create' type='button' name='create' value='Create'>
-        </section>
-    </section>";
+echo "
+<form action='" . APPLICATION_PATH . "index.php?controller=movies&action=create' method='post'>
+    <label>Title</label>
+    <input type='text' name='title'><br>
+    <label>Description</label>
+    <input type='text' name='description'><br>
+    <label>Main Actor</label>
+    <input type='text' name='main_actor'><br>
+    <label>Duration</label>
+    <input type='number' name='duration'><br>
+    <label>Rating</label>
+    <input type='number' name='rating'><br>
+    <label>Thumbnail</label>
+    <input type='text' name='thumbnail'><br>
+    <button name='create' value='true'>Create</button>
+</form>
+";
