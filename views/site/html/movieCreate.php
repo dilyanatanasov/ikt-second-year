@@ -1,7 +1,7 @@
 <?php
 
 echo "
-<form action='" . APPLICATION_PATH . "index.php?controller=movies&action=create' method='post'>
+<form action='" . APPLICATION_PATH . "index.php?controller=movies&action=create' method='post' enctype='multipart/form-data'>
     <label>Title</label>
     <input type='text' name='title'><br>
     <label>Description</label>
@@ -13,7 +13,7 @@ echo "
     <label>Rating</label>
     <input type='number' name='rating'><br>
     <label>Thumbnail</label>
-    <input type='text' name='thumbnail'><br>
+    <input type='file' name='file_to_upload'><br>
     <button name='create' value='true'>Create</button>
 </form>
 ";

@@ -3,13 +3,24 @@
 class MoviesController extends BaseController
 {
     private $movieModel;
+    private $uploadManager;
 
     function __construct() {
         $this->movieModel = new MovieModel();
+        $this->uploadManager = new UploadManager();
     }
 
     public function create() {
         if (!empty($_POST) && !empty($_POST["create"])) {
+            if (empty($_FILES["file_to_upload"]["error"])) {
+                $file_name = $this->uploadManager->uploadImg(); // 12321321_duck.jpg | false
+                if (!$file_name) {
+                    return false;
+                } else {
+                    $_POST["thumbnail"] = $file_name;
+                }
+            }
+
             $this->movieModel->create($_POST);
             header("Location: index.php?controller=movies&action=listAll");
         } else {
