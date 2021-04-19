@@ -86,4 +86,17 @@ class MoviesRepository extends Db
         $stmt->bindValue(":id", $id, PDO::PARAM_INT);
         return $stmt->execute();
     }
+
+    public function addComment($movie_id, $user_id, $comment)
+    {
+        $sql = "
+            INSERT INTO comments(id, movie_id, user_id, comment)
+            VALUES(NULL, :movie_id, :user_id, :comment)
+        ";
+        $stmt = $this->conn->prepare($sql);
+        $stmt->bindValue(":movie_id", $movie_id, PDO::PARAM_INT);
+        $stmt->bindValue(":user_id", $user_id, PDO::PARAM_INT);
+        $stmt->bindValue(":comment", $comment, PDO::PARAM_STR);
+        return $stmt->execute();
+    }
 }

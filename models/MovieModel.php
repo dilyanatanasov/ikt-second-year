@@ -37,4 +37,9 @@ class MovieModel extends BaseModel
     {
         return $this->movieRepository->delete($id);
     }
+
+    public function comment($movie_id, $user_id, $comment)
+    {
+        return $this->movieRepository->addComment($movie_id, $user_id, $comment);
+    }
 }

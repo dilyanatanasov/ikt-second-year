@@ -1,10 +1,10 @@
-async function postData(url = 'http://localhost/mvc/api/Api.php', data = {}) {
+async function postData(url, data) {
     // Default options are marked with *
     const response = await fetch(url, {
         method: 'POST', // *GET, POST, PUT, DELETE, etc.
         headers: {
             'Content-Type': 'application/json',
-            // 'Content-Type': 'application/x-www-form-urlencoded',
+            'Location': "index.php?action=movies&method=listAll"
         },
         body: JSON.stringify(data) // body data type must match "Content-Type" header
     });

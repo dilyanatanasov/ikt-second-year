@@ -52,4 +52,8 @@ class Authentication
             return false;
         }
     }
+
+    public function validateToken($token) {
+        return ($token === "123abc");
+    }
 }
