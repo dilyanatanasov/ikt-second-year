@@ -23,13 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2c68595a-cc6e-4dba-9096-e357764ce809" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configs/const.php" beforeDir="false" afterPath="$PROJECT_DIR$/configs/const.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/MoviesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/MoviesController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/Autoload.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/Autoload.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/UploadManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/UploadManager.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/site/html/movieCreate.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/site/html/movieCreate.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/site/html/movieList.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/site/html/movieList.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/site/html/movieView.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/site/html/movieView.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
