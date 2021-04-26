@@ -17,22 +17,6 @@ echo "
 
 <script type='application/javascript'>
 async function postData(url, data) {
-<<<<<<< HEAD
-    const response = await fetch(url, {
-       method: 'POST', // GET, POST, PATCH, PUT, DELETE ... 
-       headers: {
-           'Content-Type': 'application/json'
-       },
-       body: JSON.stringify(data) // 'dasadsa'
-    });
-
-    return response.json()
-}
-
-document.getElementById('addComment').onclick = async () => {
-    const message = document.getElementById('message').value;
-    
-=======
     // Default options are marked with *
     const response = await fetch(url, {
         method: 'POST', // *GET, POST, PUT, DELETE, etc.
@@ -46,27 +30,16 @@ document.getElementById('addComment').onclick = async () => {
 }
 
 document.getElementById('addComment').onclick = async () => {
->>>>>>> origin/api
     await postData('http://localhost/ikt-second-year/api/Api.php', {
         token: '123abc',
         action: 'comment',
         data: {
-<<<<<<< HEAD
-            comment: message,
-            movie_id: " . $data->id . ",
-            user_id: ";
-if (!empty($_SESSION["uid"])) echo $_SESSION["uid"];
-echo "
-        }
-    })
-=======
             user_id: "; if (!empty($_SESSION["uid"])) echo $_SESSION["uid"];
 echo ",
            comment: document.getElementById('message').value,
             movie_id: " . $data->id . "
         }
     });
->>>>>>> origin/api
     
     document.getElementById('message').value = '';
 }

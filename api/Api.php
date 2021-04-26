@@ -1,8 +1,4 @@
 <?php
-<<<<<<< HEAD
-require_once dirname(dirname(__FILE__)) . "/helpers/Debug.php";
-            // ikt-second-year/helpers/Debug.php
-=======
 require_once dirname(dirname(__FILE__)) . "/configs/const.php";
 require_once dirname(dirname(__FILE__)) . "/helpers/Debug.php";
 require_once dirname(dirname(__FILE__)) . "/core/Authentication.php";
@@ -10,16 +6,12 @@ require_once dirname(dirname(__FILE__)) . "/core/Db.php";
 require_once dirname(dirname(__FILE__)) . "/models/BaseModel.php";
 require_once dirname(dirname(__FILE__)) . "/models/MovieModel.php";
 require_once dirname(dirname(__FILE__)) . "/repositories/MoviesRepository.php";
->>>>>>> origin/api
 
 $_POST = json_decode(file_get_contents('php://input'), true);
 
 class Api
 {
     function __construct() {
-<<<<<<< HEAD
-        Debug::parseAndDie($_POST);
-=======
         if (!empty($_POST)) {
             if (
                 !empty($_POST["token"]) &&
@@ -61,7 +53,6 @@ class Api
                 break;
         }
         return $response;
->>>>>>> origin/api
     }
 }
 
