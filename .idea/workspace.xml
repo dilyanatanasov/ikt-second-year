@@ -23,12 +23,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2c68595a-cc6e-4dba-9096-e357764ce809" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/api/Api.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/Authentication.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/Authentication.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/MoviesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/MoviesController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/models/MovieModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/MovieModel.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/repositories/MoviesRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/repositories/MoviesRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/js/postData.js" beforeDir="false" afterPath="$PROJECT_DIR$/views/js/postData.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/site/html/movieView.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/site/html/movieView.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,7 +61,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="6792034e-ab47-4bdb-a443-3d75053da8d4" name="Default Changelist" comment="" />
+      <changelist id="2c68595a-cc6e-4dba-9096-e357764ce809" name="Default Changelist" comment="" />
       <created>1612804998589</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -77,6 +75,7 @@
       <workItem from="1614617703767" duration="6044000" />
       <workItem from="1615221991111" duration="4150000" />
       <workItem from="1615226143632" duration="13023000" />
+      <workItem from="1619452266930" duration="3983000" />
     </task>
     <task id="LOCAL-00001" summary="show basic php">
       <created>1612808707239</created>

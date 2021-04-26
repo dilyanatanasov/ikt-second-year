@@ -53,6 +53,19 @@ class MoviesRepository extends Db
         return $stmt->fetch(PDO::FETCH_OBJ);
     }
 
+    public function getAllCommentsForMovie($movie_id) {
+        $sql = "
+            SELECT UC.username, C.comment, C.created_at FROM movies M
+            INNER JOIN comments C ON C.movie_id = M.id
+            INNER JOIN user_credentials UC ON UC.id = C.user_id
+            WHERE M.id = :id
+        ";
+        $stmt = $this->conn->prepare($sql);
+        $stmt->bindValue(":id", $movie_id, PDO::PARAM_INT);
+        $stmt->execute();
+        return $stmt->fetchAll(PDO::FETCH_OBJ);
+    }
+
     public function update($data) {
         $sql = "
             UPDATE

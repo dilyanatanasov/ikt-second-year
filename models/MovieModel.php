@@ -24,6 +24,10 @@ class MovieModel extends BaseModel
         return $this->movieRepository->getAll();
     }
 
+    public function listAllComments($movie_id) {
+        return $this->movieRepository->getAllCommentsForMovie($movie_id);
+    }
+
     public function search($topic) {
         return $this->movieRepository->getAllByTopic($topic);
     }

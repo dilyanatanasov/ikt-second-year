@@ -43,7 +43,12 @@ class MoviesController extends BaseController
 
     public function view() {
         if (!empty($_POST) && !empty($_POST["movie_id"])) {
-            return $this->movieModel->view($_POST["movie_id"]);
+            $movieData = $this->movieModel->view($_POST["movie_id"]);
+            $commentsOfMovie = $this->movieModel->listAllComments($_POST["movie_id"]);
+            return [
+                "movieData" => $movieData,
+                "comments" => $commentsOfMovie
+            ];
         } else {
             return false;
         }
