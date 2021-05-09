@@ -31,6 +31,7 @@ class Authentication
                 $user = $userModel->viewByUsernameAndPassword($_POST["username"], $password);
                 if (!empty($user)) {
                     $_SESSION["uid"] = $user->id;
+                    $_SESSION["username"] = $user->username;
                     $_SESSION["full_name"] = $user->first_name . " " . $user->last_name;
                     return true;
                 }

@@ -13,13 +13,11 @@ echo "
 
 <h3>Comments:</h3>
 <input type='text' id='message' placeholder='I love this movie...'>
-<button id='addComment'>Comment</button>
-<div id='comments'>";
+<button id='addComment'>Comment</button>";
 foreach ($data['comments'] as $cmnt) {
     echo "<p>" . $cmnt->username . ": " . $cmnt->comment . " " . $cmnt->created_at . "</p>";
 }
 echo "
-</div>
 <script type='application/javascript'>
 async function postData(url, data) {
     // Default options are marked with *
@@ -30,11 +28,12 @@ async function postData(url, data) {
         },
         body: JSON.stringify(data) // body data type must match 
     });
-
+    
     return response.json(); // parses JSON response into native JavaScript objects
 }
 
 document.getElementById('addComment').onclick = async () => {
+    const message = document.getElementById('message').value;
     await postData('http://localhost/ikt-second-year/api/Api.php', {
         token: '123abc',
         action: 'comment',
@@ -42,7 +41,7 @@ document.getElementById('addComment').onclick = async () => {
             user_id: ";
 if (!empty($_SESSION["uid"])) echo $_SESSION["uid"];
 echo ",
-           comment: document.getElementById('message').value,
+            comment: message,
             movie_id: " . $data['movieData']->id . "
         }
     });
