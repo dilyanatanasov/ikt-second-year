@@ -24,7 +24,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2c68595a-cc6e-4dba-9096-e357764ce809" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/Authentication.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/Authentication.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/repositories/MoviesRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/repositories/MoviesRepository.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/site/html/movieView.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/site/html/movieView.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +46,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mvc" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -75,6 +75,7 @@
       <workItem from="1615226143632" duration="13023000" />
       <workItem from="1619452266930" duration="4083000" />
       <workItem from="1619458598368" duration="2233000" />
+      <workItem from="1620794452836" duration="7798000" />
     </task>
     <task id="LOCAL-00001" summary="show basic php">
       <created>1612808707239</created>
@@ -130,10 +131,10 @@
       <screen x="68" y="0" width="1852" height="2160" />
     </state>
     <state x="100" y="100" width="1720" height="880" key="DiffContextDialog/68.0.1852.2160@68.0.1852.2160" timestamp="1616736465914" />
-    <state x="743" y="149" width="424" height="491" key="FileChooserDialogImpl" timestamp="1619456696366">
+    <state x="743" y="149" width="424" height="491" key="FileChooserDialogImpl" timestamp="1620797265463">
       <screen x="68" y="0" width="1852" height="1080" />
     </state>
-    <state x="743" y="149" width="424" height="713" key="FileChooserDialogImpl/0.1080.1920.1080/68.0.1852.1080@68.0.1852.1080" timestamp="1619456696366" />
+    <state x="743" y="149" width="424" height="713" key="FileChooserDialogImpl/0.1080.1920.1080/68.0.1852.1080@68.0.1852.1080" timestamp="1620797265463" />
     <state x="743" y="172" width="424" height="491" key="FileChooserDialogImpl/0.1080.1920.1080/68.27.1852.1053@68.27.1852.1053" timestamp="1614404725624" />
     <state x="743" y="298" width="424" height="491" key="FileChooserDialogImpl/68.0.1852.2160@68.0.1852.2160" timestamp="1615871815188" />
     <state x="726" y="256" width="553" height="1080" key="NewPhpClassDialog" timestamp="1618850970530">
